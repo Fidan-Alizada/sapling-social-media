@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, footer {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+}
+
+.posts, .analytics {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.post, .post-analytics {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.actions button {
+  margin-right: 0.5rem;
+}
